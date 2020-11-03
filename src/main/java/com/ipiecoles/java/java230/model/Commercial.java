@@ -1,5 +1,6 @@
 package com.ipiecoles.java.java230.model;
 
+
 import org.joda.time.LocalDate;
 
 public class Commercial extends Employe {
@@ -13,7 +14,7 @@ public class Commercial extends Employe {
 	}
 	
 	public Commercial(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire,
-			Double caAnnuel) {
+					  Double caAnnuel) {
 		super(nom, prenom, matricule, dateEmbauche, salaire);
 		this.caAnnuel = caAnnuel;
 	}
